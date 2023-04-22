@@ -1,0 +1,51 @@
+table,tr,td,th{
+    border: 2px solid brown;
+    border-collapse: collapse;
+}
+h1{
+    text-align: center;
+}
+h1:hover{
+    color: rgb(145, 111, 224);
+    scale: 2.5;
+}
+h2{
+    text-align: centre;
+}
+#parentdiv p{
+    color:rgb(160, 171, 175);
+}
+div{
+    color: rgb(106, 96, 116);
+}
+.button{
+    width: 250px;
+    height: 60px;
+    color: blue;
+    
+}
+#red{
+    border: 4px;
+    border-style: dashed;
+    border-radius: 50px 50px 50px 50px;
+    background-color: blueviolet;
+}
+#blue{
+    border: 4px;
+    border-style: dotted;
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(189, 52, 55);
+    color: coral;
+}
+#blue:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: beige;
+    scale: 0.8;
+}
+#red:hover{
+    cursor: pointer;
+    background-color: rgb(173, 55, 79);
+    color: rgb(95, 151, 184);
+    scale: 0.8;
+}

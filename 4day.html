@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th{
+            border: 2px solid black;
+            border-collapse: collapse;
+
+        }
+        table{
+            margin-left: 2rem;
+            margin-top: 3rem;
+            background-color: aqua;
+            color: rgb(194, 127, 26);
+        }
+        th,td{
+            padding: 10px; 
+        }
+        h1{
+            color: rgb(174, 243, 12);
+            text-align: center;
+            font-size: 100px;
+        }
+        
+        body{
+            background-image: url(download.jpg);
+            background-repeat: no-repeat;
+            /* background-repeat: repeat-x; for repeating image in x axis */
+            /* for the change of image position */
+            background-position: sticky;
+            background-size: cover;
+        }
+        img{
+            position: fixed;
+        }
+        #blue{
+            background-color: rgba(0, 0, 255, 0.904);
+            width: 500px;
+            height: 500px;
+        }
+        #grey{
+            /* for putting the imag backside */
+            z-index: 1; 
+            background-color: gray;
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            left: 50%;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>S no</th>
+            <th>Name</th>
+            <th>Course</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Archie</td>
+            <td>Btech</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Astha</td>
+            <td>Btech</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Ashwani</td>
+            <td>Btech</td>
+        </tr>
+    </table>
+    <hr height="4px" width="100%">
+    <h1>Environment Day</h1>
+    <img src="download.jpg" alt="">
+
+    <!-- <img src="download.jpg" alt="logo"> -->
+    <!-- lorem 25 for paragraph -->
+    <p>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet rerum, vel unde, eos ipsam, mollitia sapiente iste nemo perferendis assumenda deleniti nam! Tempora id repudiandae reiciendis illum molestiae aperiam sit consequatur repellat dolores fuga maxime earum, sapiente libero vitae veritatis aut temporibus quae, at commodi inventore? Veritatis sunt ullam, laborum dolor sed quibusdam, dolorum nam eligendi architecto quos iure iste 
+       
+    </p>
+    <div id="blue"></div>
+    <div id="grey"></div>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+.button{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+}
+
+#green{
+    background-color: rgb(34, 210, 43);
+    z-index: 30px;
+    left: 30%;
+    bottom: 50%;
+    
+}
+#lightgreen{
+    background-color: blue;
+    z-index: 30px;
+    left: 60%;
+    bottom: 50%;
+}
+#purple{
+    background-color: coral;
+    left: 35%;
+    bottom: 40%;
+}
+#violet{
+    background-color: crimson;
+    
+    left: 55% ;
+    bottom: 40% ;
+}
+#olive{
+    background-color: olive;
+    left: 40%;
+    bottom: 30%;
+}
+#brown{
+    background-color: brown;
+    left: 50%;
+    bottom: 30%;
+}
+#sky{
+    background-color: skyblue;
+    left: 45%;
+    bottom: 20% ;
+}
